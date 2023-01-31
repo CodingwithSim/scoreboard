@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;                                                
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-size: 1em;
+    background: transparent;
+    width: 50px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+    border: 1.5px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    margin: 3px;
+}
+
+.score {
+    background: #0a0001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: centre;
+}
+
+.label {
+    margin-bottom: 20px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+}
+
+div button {
+    margin-top: 1em;
+}
+
+#newGame {
+    width: 100px;
+}
+
+.winning {
+    color: green;
+}
+
+.losing {
+    color: red;
+}
