@@ -11,24 +11,27 @@
 </head>
 
 <body>
-    <div class="container">
-        <div>
-            <h3 class="label">HOME</h3>
-            <h2 class="score" id="homeDisplay">0</h2>
-            <button id="+1home">+1</button>
-            <button id="+2home">+2</button>
-            <button id="+3home">+3</button>
+    <div class="wrapper">
+        <div class="container">
+            <div>
+                <h3 class="label">HOME</h3>
+                <h2 class="score" id="homeDisplay">0</h2>
+                <button id="+1home">+1</button>
+                <button id="+2home">+2</button>
+                <button id="+3home">+3</button>
+            </div>
+            <div>
+                <h3 class="label">AWAY</h3>
+                <h2 class="score" id="guestDisplay">0</h2>
+                <button id="+1guest">+1</button>
+                <button id="+2guest">+2</button>
+                <button id="+3guest">+3</button>
+            </div>
         </div>
+
         <div>
-            <h3 class="label">AWAY</h3>
-            <h2 class="score" id="guestDisplay">0</h2>
-            <button id="+1guest">+1</button>
-            <button id="+2guest">+2</button>
-            <button id="+3guest">+3</button>
+            <button class="reset" id="newGame">New Game</button>
         </div>
-    </div>
-    <div class="reset">
-        <button id="newGame">New Game</button>
     </div>
     <script src="index.js"></script>
 </body>

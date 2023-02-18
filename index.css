@@ -1,12 +1,22 @@
 body {
     margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.wrapper {
+    min-width: 575px;
+    min-height: 385px;
+    margin: auto auto;
     text-align: center;
-    background-color: #1B244A;                                                
+    background-color: #1B244A;
+    border-radius: 6px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
 }
 
 button {
@@ -48,8 +58,9 @@ div button {
     margin-top: 1em;
 }
 
-#newGame {
+.reset {
     width: 100px;
+    margin: 30px;
 }
 
 .winning {
